@@ -11,6 +11,7 @@ Built on top of [jishi/node-sonos-discovery](https://github.com/jishi/node-sonos
 gem install foreman
 git clone git@github.com:jeffandersen/sonos-rest-api.git
 cd sonos-rest-api
+cp .env.example .env
 foreman start
 ```
 
